@@ -1,0 +1,123 @@
+h2 {
+	color: #006699;
+}
+
+*{
+  font-size: 14px;
+}
+
+.my-fav-collection .links li {
+	margin-top: -2px;
+	border-right: 2px solid #fff;
+}
+
+.my-fav-collection li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 0 20px;
+}
+
+.my-fav-collection .links li:last-child {
+	border-right: none;
+}
+
+.star-style {
+	color:#ffff00;
+	font-size: 20px;
+}
+
+.dv-star-rating {
+	top: 10px;
+  left: 20px;
+}
+
+.dv-star-rating .dv-star-rating-star i{
+	font-size: 20px;
+}
+
+.my-fav-collection .list-group-item{
+	padding:0;
+}
+
+.list-group-item .collection-item {
+	list-style-type: none;
+	float: left;
+	margin-top: 15px;
+}
+
+.toggle-btn {
+	margin: 10px 0 0;
+	float: right;
+}
+.my-fav-collection li a.nav-link--active {
+	font-size: 16px;
+	font-weight: bold;
+}
+.list-group-item.active-link {
+	background: #18afa8;
+	color: #fff;
+}
+
+.list-group-item.active-link p{
+	font-size: 16px;
+}
+/*******************/
+#app {
+	padding: 20px;
+	font-family: robot, arial
+  }
+  svg {
+	fill: #000;
+	fill-opacity: 0.3;
+	border: 1px solid;
+	margin: 10px auto 0 auto;
+  }
+  
+  path {
+	stroke: steelblue;
+	stroke-width: 2px;
+	fill: none;
+  }
+  
+  .axis {
+	stroke: #000;
+  }
+  
+  .axis-labels text {
+	fill: #000;
+	fill-opacity: 0.9;
+	font-size: 12px;
+	text-anchor: middle;
+  }
+  
+  .axis-labels line {
+	stroke: #000;
+  }
+  
+  .gridline {
+	opacity: 0.2;
+  }
+  .x-axis-labels{
+	transform: rotate(-10deg)
+  }
+  .dots {
+	stroke: #000;
+	fill-opacity: 1
+  }
+  form {
+	margin-top: 20px;
+  }
+  form .form-group, form .show-on-chart {
+	float: left;
+  }
+  form .show-on-chart {
+	margin: 27px 0px 0px 10px;
+  }
+  .error {
+	color: red;
+    margin-left: 30px;
+  }
+  .show-on-chart.btn-primary.disabled, .show-on-chart.btn-primary:disabled {
+	opacity: 0.2;
+  }
