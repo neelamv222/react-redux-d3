@@ -4,11 +4,8 @@ import "./App.css"
 
 const App = () => {
   return (
-    <div className="my-fav-collection">
-      {/* Depending upon the path, it will show either books, movies, games or foods collection */}
-      <div className="content">
-        <LineChart />
-      </div>
+    <div className="content">
+      <LineChart />
     </div>
   )
 }

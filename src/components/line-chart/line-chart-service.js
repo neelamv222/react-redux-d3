@@ -9,4 +9,3 @@ export const lineChartService = () => {
 export const lineChartAddService = (xValue, yValue) => {
   return axios.post("http://konuxdata.getsandbox.com/points", {x: xValue, y:yValue});
 };
-

@@ -1,21 +1,11 @@
-export const START_RANDOM_RATING = "Start Random Rating";
-export const STOP_RANDOM_RATING = "Stop Random Rating";
-export const COLLECTION_LIST = "COLLECTION_LIST";
+export const LINE_CHART_DATA = "LINE_CHART_DATA";
 export const UPDATE_X_VALUE= "UPDATE_X_VALUE";
 export const UPDATE_Y_VALUE = "UPDATE_Y_VALUE";
 export const UPDATE_CHART_DATA = "UPDATE_CHART_DATA"
-export const TOGGLE_BTN_CLICKED = "TOGGLE_BTN_CLICKED";
-export const STAR_CLICK = "STAR_CLICK";
 export const ADD_API_ERROR = "ADD_API_ERROR";
-export const API_ERROR = "API_ERROR";
+export const FETCH_API_ERROR = "FETCH_API_ERROR";
 export const SVG_MARGIN= 40;
 export const SVG_WIDTH= 600;
 export const SVG_HEIGHT= 500;
 export const FETCH_API_MSG = "Fetch API Call Failed";
 export const POST_API_MSG = "POST API Call Failed";
-export const TOTAL_STAR_COUNT = 5;
-export const RANDOM_MIN_VAL = 1;
-export const RANDOM_MAX_VAL = 5;
-export const RANDOM_MAX_VAL_ID = 10;
-export const FAV_COLLECTION = ["books", "movies", "games", "foods"];
-
