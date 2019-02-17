@@ -105,7 +105,7 @@ class LineChart extends Component {
         </div>
       );
     }
-    return ( showLoader && <Loader />);
+    return ( apiFailureMsg ? <ApiFailureBox msg={apiFailureMsg} /> : showLoader && <Loader />);
   }
 }
 
